@@ -2,7 +2,7 @@
 <div id="message1">
 
 
-<?php echo $this->Form->create('Type',array('id'=>'form_type','type'=>'file','class'=>'','method'=>'POST','autocomplete'=>'off','inputDefaults'=>array('label'=>false,'div'=>false,'type'=>'text','required'=>false)))?>
+<?php echo $this->Form->create('Type',array('action'=>'radioPosts','id'=>'form_type','type'=>'file','class'=>'','method'=>'POST','autocomplete'=>'off','inputDefaults'=>array('label'=>false,'div'=>false,'type'=>'text','required'=>false)))?>
 	
 <?php echo __("Hi, please choose a type below:")?>
 <br><br>
@@ -20,6 +20,7 @@
 
 <?php echo $this->Form->input('type', array('legend'=>false, 'type' => 'radio', 'value'=>'Type1','options'=>$options_new,'before'=>'<label class="radio line notcheck">','after'=>'</label>' ,'separator'=>'</label><label class="radio line notcheck">'));?>
 
+<?php echo $this->Form->submit();?>
 <?php echo $this->Form->end();?>
 
 </div>

@@ -18,8 +18,4 @@
 // 			$this->set('title',__('Question: Please change Pop Up to mouse over (soft click)'));
 		}
 
-		public function radioPosts(){
-			echo "Hello World!";
-		}
-		
 	}
