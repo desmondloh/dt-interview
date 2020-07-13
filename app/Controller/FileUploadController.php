@@ -38,7 +38,7 @@ class FileUploadController extends AppController {
 			else
 			{
 				//$this->setFlash->error('You did not upload the correct file format. Please upload only CSV File');
-				$this->setFlash('You did not upload the correct file format. Please upload only CSV File',array('class' => 'success'));
+				$this->setFlash('You did not upload the correct file format. Please upload only CSV File');
 				//$this->Flash->set('title',__('You did not upload the correct file format. Please upload only CSV File'));
 				//$this->set('title',__('You did not upload the correct file format. Please upload only CSV File'));
 			}
