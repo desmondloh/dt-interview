@@ -40,8 +40,8 @@
 												<table style="width:100%">
 													<thead>
 														<tr>
-															<th style="border-left:none;width:50%">Part Name</th>
-															<th>Value</th>
+															<th style="border-left:none;width:50%">Dish Name</th>
+															<th>Qty Value</th>
 														</tr>
 													</thead>
 													<tbody>
